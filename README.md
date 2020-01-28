@@ -1,24 +1,21 @@
-# IonicCustomAlert
+# Custom Ionic Alert
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+This library is used to add custom Angular components to Ionic alerts.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name --project ionic-custom-alert` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ionic-custom-alert`.
-> Note: Don't forget to add `--project ionic-custom-alert` or else it will be added to the default project in your `angular.json` file. 
+Using [NPM](https://www.npmjs.com/)
 
-## Build
+```bash
+    npm install ionic-custom-alert
+```
 
-Run `ng build ionic-custom-alert` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Publishing
+For an example of how to use this see the [StackBlitz example](https://stackblitz.com/edit/ionic-custom-alert-demo)
 
-After building your library with `ng build ionic-custom-alert`, go to the dist folder `cd dist/ionic-custom-alert` and run `npm publish`.
+## Contributing
 
-## Running unit tests
-
-Run `ng test ionic-custom-alert` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+If you would like to contribute create a pull request and I will review. 
+If you have any issues or suggestions on how to improve this feel free to create issues on 
+[Github](https://github.com/jgerstle/ionic-custom-alert)

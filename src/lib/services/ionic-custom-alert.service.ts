@@ -14,7 +14,7 @@ export class IonicCustomAlertService {
 	// Create a custom popup using the component as a template in the body
 	// For information on how the component gets built inside the popup see:
 	// https://hackernoon.com/angular-pro-tip-how-to-dynamically-create-components-in-body-ba200cc289e6
-	async create<T>(options: CustomAlertOptions<T>) {
+	async create<T>(options: CustomAlertOptions<T>): Promise<HTMLIonAlertElement> {
 		// Using a uuid to ensure we attach the component to the right popup
 		const alertUuid = v4();
 		// Create a component reference from the component
