@@ -1,6 +1,6 @@
 {
   "name": "ionic-custom-alert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small package to add a component into an ionic alert",
   "author": "Jeremy Gerstle",
   "repository": {
